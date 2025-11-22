@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+#tsparticles {
+  z-index: -1;
+}
