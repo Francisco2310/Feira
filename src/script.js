@@ -4,15 +4,18 @@ import { loadSlim } from "@tsparticles/slim";
 const config = {
     responsive: [
       {
-        maxWidth: 768,
+        maxWidth: 1400,
         options: {
+          motion: {
+            enable: false
+          },
           particles: {
             number: {
-              value: 30
+              value: 0
             },
 
             links: {
-              distance: 100
+              enable: false
             }
 
           },
