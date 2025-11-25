@@ -48,7 +48,7 @@ const config = {
       events: {
         onHover: {
           enable: true,
-          mode: "grab"
+          mode: "grab",
       }}
     },
     particles: {
