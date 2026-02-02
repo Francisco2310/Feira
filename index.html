@@ -3,9 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="src/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <style>
+    @import "tailwindcss";
+
+.glass-container {
+  background: rgba(255, 255, 255, 0.03); /* Branco quase invisível */
+  backdrop-filter: blur(12px);          /* O desfoque mágico */
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Borda sutil de vidro */
+  border-radius: 2rem;                   /* Bordas arredondadas modernas */
+}
+
+.text-gradient-purple {
+  background: linear-gradient(to right, #6366F1, #A855F7, #60A5FA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#tsparticles {
+  z-index: -1;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+  </style>
           
   <link rel="stylesheet" 
           href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Fira+Code:wght@300;400;500&family=Bebas+Neue&family=Major+Mono+Display&family=Share+Tech+Mono&family=Syncopate:wght@400;700&display=swap" 
