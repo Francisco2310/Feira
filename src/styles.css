@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
+.glass-container {
+  background: rgba(255, 255, 255, 0.03); /* Branco quase invisível */
+  backdrop-filter: blur(12px);          /* O desfoque mágico */
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Borda sutil de vidro */
+  border-radius: 2rem;                   /* Bordas arredondadas modernas */
+}
+
+.text-gradient-purple {
+  background: linear-gradient(to right, #6366F1, #A855F7, #60A5FA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 #tsparticles {
   z-index: -1;
 }
