@@ -47,7 +47,7 @@ const config = {
       },
       events: {
         onHover: {
-          enable: true,
+          enable: false,
           mode: "grab",
       }}
     },
@@ -57,7 +57,7 @@ const config = {
           distance: 150,
         },
         number: { 
-          value: 50
+          value: 20
         },
         color: {
           value: "#ffffff"
